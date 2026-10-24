@@ -1,0 +1,25 @@
+name: Suggest an improvement
+description: Explain what you want to accomplish with Smylte.
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Suggestions are welcome. This form is public; do not include private content or credentials. A suggestion is not a commitment to build it."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the problem or task in your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you do today?
+      description: Optional workaround or example using made-up content.

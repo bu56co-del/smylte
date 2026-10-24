@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Install Smylte
+    url: https://chromewebstore.google.com/detail/smylte-save-social-media/eebefbknmfpjmhggmcapmljjilmkoebg
+    about: Get the extension from the Chrome Web Store.
+  - name: Read the guides
+    url: https://yaka310.com/projects/post-library/guides/
+    about: Find source-specific instructions and limitations.
+  - name: Private or security-sensitive contact
+    url: https://yaka310.com/contact/
+    about: Use the contact information here instead of posting private details in an issue.

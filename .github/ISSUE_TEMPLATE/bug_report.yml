@@ -1,0 +1,65 @@
+name: Report a bug
+description: Report a reproducible Smylte problem without sharing private data.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "This report is public. Do not include API keys, passwords, cookies, private posts, full backups or unredacted screenshots."
+  - type: input
+    id: version
+    attributes:
+      label: Smylte version
+      description: Copy the version shown in the extension.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Chrome version and operating system
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Threads
+        - Instagram
+        - Facebook
+        - X
+        - Patreon
+        - Pinterest
+        - Library or search
+        - Backup or restore
+        - Images or sharing
+        - Settings or AI categorization
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe the action. Include a source URL only if it is public and safe to share.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Include the short error message if available, with personal information removed.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed credentials, private content and personal information from this public report.
+          required: true
