@@ -19,6 +19,24 @@ This is Smylte's public **documentation, updates and support** repository. The a
 
 **If an original post is deleted, successfully saved content remains viewable as long as you keep your local copy.** A link or thumbnail alone is not a downloaded video. Keep backups of content you want to retain.
 
+## Screenshots
+
+These screenshots show the released **v0.55.15** interface with made-up posts, authors and images. No personal saved content is shown. The download example uses a local test response; it is not proof that a particular live post can be downloaded.
+
+**Keep saved posts together**
+
+![Smylte Library with synthetic saved posts](assets/screenshots/library-v0.55.15.png)
+
+**Find saved content by its words**
+
+![Keyword search in Smylte using synthetic content](assets/screenshots/search-v0.55.15.png)
+
+**Download media without adding a Library record**
+
+![Smylte download-only workflow using a synthetic local response](assets/screenshots/downloads-v0.55.15.png)
+
+[What these demonstrations show](SCREENSHOTS.md)
+
 ## Supported sources
 
 Support depends on the page, your access and the content loaded during the run.
